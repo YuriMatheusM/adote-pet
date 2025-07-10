@@ -1,6 +1,6 @@
 import gatinho from "../assets/cat.png";
+import cat_dog from "../assets/cat_dog.png";
 import dogsnapraia from "../assets/dogs.jpg";
-import imagem_teste from "../assets/teste.png";
 import Cards from "../components/cards";
 import InfoCard from "../components/info_cards";
 import Slides from "../components/slides";
@@ -21,7 +21,7 @@ const Home = () => {
       buttonText: "Adote Já",
     },
     {
-      image: imagem_teste,
+      image: cat_dog,
       description: "Brinque, Ame, Adote, Repita",
       subdescription: "",
       buttonText: "Adote um Amigo",
