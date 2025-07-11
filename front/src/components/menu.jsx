@@ -1,5 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import perilDefault from "../assets/image_perfil.png";
 import Logo from "../assets/logo";
 import SearchMobile from "./searchMobile";
@@ -25,7 +26,7 @@ const MenuResp = () => {
           <SearchMobile />
         </div>
         <button
-          className="hover:bg-orange-100 rounded-md transition duration-5000 ease-in-out"
+          className="hover:bg-orange-100 rounded-md transition duration-700 ease-in-out"
           onClick={() => setIsOpen(!isOpen)}
         >
           <Menu className="w-10 h-8" />
@@ -53,37 +54,65 @@ const MenuResp = () => {
           </div>
           <ul className="text-center space-y-2 ">
             <li>
-              <a href="/" className="text-primary hover:text-[#D3BD88]">
+              <Link
+                to="/"
+                className="text-primary hover:text-[#D3BD88]"
+                onClick={() => setIsOpen(false)}
+              >
                 Inicio
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/pets" className="text-primary hover:text-[#D3BD88]">
+              <Link
+                to="/shopping"
+                className="text-primary hover:text-[#D3BD88]"
+                onClick={() => setIsOpen(false)}
+              >
                 Loja
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about" className="text-primary hover:text-[#D3BD88]">
+              <Link
+                to="/contact"
+                className="text-primary hover:text-[#D3BD88]"
+                onClick={() => setIsOpen(false)}
+              >
                 Contato
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/pets" className="text-primary hover:text-[#D3BD88]">
+              <a
+                href="/pets"
+                className="text-primary hover:text-[#D3BD88]"
+                onClick={() => setIsOpen(false)}
+              >
                 Politica da loja
               </a>
             </li>
             <li>
-              <a href="/pets" className="text-primary hover:text-[#D3BD88]">
+              <a
+                href="/pets"
+                className="text-primary hover:text-[#D3BD88]"
+                onClick={() => setIsOpen(false)}
+              >
                 Comentarios
               </a>
             </li>
             <li>
-              <a href="/pets" className="text-primary hover:text-[#D3BD88]">
+              <a
+                href="/pets"
+                className="text-primary hover:text-[#D3BD88]"
+                onClick={() => setIsOpen(false)}
+              >
                 Agendamento online
               </a>
             </li>
             <li>
-              <a href="/pets" className="text-primary hover:text-[#D3BD88]">
+              <a
+                href="/pets"
+                className="text-primary hover:text-[#D3BD88]"
+                onClick={() => setIsOpen(false)}
+              >
                 Carrinho
               </a>
             </li>

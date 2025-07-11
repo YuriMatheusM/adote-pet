@@ -13,6 +13,7 @@ export default {
         details: "#aaa596",
         menu: "#f6eccb",
         text: "#5a5031",
+        main: "#d3bd88",
       },
       transitionDuration: {
         2000: "2000ms",

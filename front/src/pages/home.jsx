@@ -3,6 +3,7 @@ import cat_dog from "../assets/cat_dog.png";
 import dogsnapraia from "../assets/dogs.jpg";
 import Cards from "../components/cards";
 import InfoCard from "../components/info_cards";
+import Shop from "../components/shop";
 import Slides from "../components/slides";
 
 const Home = () => {
@@ -63,6 +64,7 @@ const Home = () => {
       <div>
         <Cards />
       </div>
+      <div class="border-t border-details mb-3 w-full"></div>
       <div>
         <Shop />
       </div>
