@@ -1,8 +1,8 @@
 import { Menu, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import perilDefault from "../assets/image_perfil.png";
 import Logo from "../assets/logo";
+import Login from "./login";
 import SearchMobile from "./searchMobile";
 
 const MenuResp = () => {
@@ -34,16 +34,10 @@ const MenuResp = () => {
       </div>
       {isOpen && (
         <div className="w-full fixed top-1 left-0 rounded-xl bg-menu shadow-md z-50 p-4">
-          <div className="container mx-auto flex justify-between items-center">
+          <div className="container mx-auto flex justify-between items-center mb-2">
             <Logo className="h-11" />
-            <div className="flex mr-5 rounded-full">
-              <button className="">
-                <img
-                  src={perilDefault}
-                  alt=""
-                  className="rounded-full w-8 h-8"
-                />
-              </button>
+            <div>
+              <Login />
             </div>
             <button
               onClick={() => setIsOpen(false)}

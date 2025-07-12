@@ -1,7 +1,7 @@
 import { ShoppingCart } from "lucide-react";
 import { Link } from "react-router-dom";
-import perilDefault from "../assets/image_perfil.png";
 import Logo from "../assets/logo";
+import Login from "./login";
 import MenuResp from "./menu";
 import Buscar from "./search";
 
@@ -54,15 +54,8 @@ const Header = () => {
             </li>
           </ul>
           <div className="lg:hidden 2xl:flex 2xl:justify-end 2xl:gap-1">
-            <div className="flex mr-1 rounded-full text-black/60">
-              <button className="flex gap-2">
-                <img
-                  src={perilDefault}
-                  alt=""
-                  className="rounded-full w-6 h-6"
-                />
-                Login
-              </button>
+            <div>
+              <Login />
             </div>
             <div>
               <button>
