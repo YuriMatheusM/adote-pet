@@ -44,13 +44,13 @@ const Header = () => {
               <Link to="/contact">Contato</Link>
             </li>
             <li className="text-primary hover:text-[#D3BD88]">
-              <a href="/pets">Politica da loja</a>
+              <Link to="/policy">Politica da loja</Link>
             </li>
             <li className="text-primary hover:text-[#D3BD88]">
-              <a href="/pets">Comentarios</a>
+              <Link href="/pets">Comentarios</Link>
             </li>
             <li className="text-primary hover:text-[#D3BD88]">
-              <a href="/pets">Agendamento online</a>
+              <Link href="/pets">Agendamento online</Link>
             </li>
           </ul>
           <div className="lg:hidden 2xl:flex 2xl:justify-end 2xl:gap-1">

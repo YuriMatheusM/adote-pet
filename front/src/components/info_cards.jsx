@@ -6,7 +6,7 @@ import ImageCad from "../assets/image_5_cad";
 
 const InfoCard = () => {
   return (
-    <div className="flex-wrap font-sans text-primary justify-center items-center 2xl:flex 2xl:gap-24 2xl:mt-5">
+    <div className="flex-wrap font-sans text-primary justify-center items-center xl:flex xl:gap-7 2xl:flex 2xl:gap-24 2xl:mt-5">
       <div className="bg-primary/30 py-16 px-16 text-center my-11">
         <div className="flex gap-3 mx-11">
           <ImageCat className="w-14 h-14" />

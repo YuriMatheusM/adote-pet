@@ -10,6 +10,7 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import Contact from "../pages/contact";
 import Home from "../pages/home";
+import Policy from "../pages/policy";
 import Shopping from "../pages/shopping";
 
 const PageTransition = ({ children }) => {
@@ -54,6 +55,14 @@ function AnimatedRoutes() {
             </PageTransition>
           }
         />
+        <Route
+          path="/policy"
+          element={
+            <PageTransition>
+              <Policy />
+            </PageTransition>
+          }
+        />
       </Routes>
     </AnimatePresence>
   );
@@ -62,9 +71,7 @@ function AppRoutes() {
   return (
     <Router>
       <header>
-        <nav>
-          <Header />
-        </nav>
+        <Header />
       </header>
 
       <main className="mb-28">

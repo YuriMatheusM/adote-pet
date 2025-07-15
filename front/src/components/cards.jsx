@@ -5,7 +5,7 @@ import imageCard4 from "../assets/image_card4.png";
 
 const Cards = () => {
   return (
-    <div className="flex-wrap font-sans 2xl:flex 2xl:justify-center 2xl:gap-12 2xl:px-36 ">
+    <div className="flex-wrap font-sans xl:flex xl:justify-center xl:gap-7 2xl:flex 2xl:justify-center 2xl:gap-12 2xl:px-36 ">
       <div className="flex justify-center w-[365px] h-[400px] mt-12 2xl:flex 2xl:h-[480px]">
         <img
           src={imageCard1}
@@ -74,13 +74,13 @@ const Cards = () => {
         </div>
       </div>
 
-      <div className="flex justify-center w-[365px] h-[400px] mt-12 2xl:w-[980px] 2xl:h-[480px] mb-10">
+      <div className="flex justify-center w-[365px] h-[400px] mt-12 xl:w-[800px] 2xl:w-[980px] 2xl:h-[480px] mb-10">
         <img
           src={imageCard4}
           alt="destaques"
           className="w-full h-full object-cover"
         />
-        <div className="absolute flex w-[365px] h-[400px] 2xl:w-[980px] 2xl:h-[480px] 2xl:mt-64">
+        <div className="absolute flex w-[365px] h-[400px] xl:w-[800px] xl:w- 2xl:w-[980px] 2xl:h-[480px] 2xl:mt-64">
           <div className="flex-wrap w-full h-full justify-center items-center p-3 ">
             <h1 className="font-poppins-bold text-menu text-4xl">
               Pequeninos para Adoção

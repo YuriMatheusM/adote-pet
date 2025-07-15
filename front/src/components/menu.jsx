@@ -76,7 +76,7 @@ const MenuResp = () => {
             </li>
             <li>
               <a
-                href="/pets"
+                href="/policy"
                 className="text-primary hover:text-[#D3BD88]"
                 onClick={() => setIsOpen(false)}
               >
